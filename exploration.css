@@ -1,0 +1,97 @@
+:root {
+    --color-bg-dark: #0b0c10;
+    --color-bg-light: #12161b;
+    --color-text-primary: #929598;
+    --color-text-heading: #ffffff;
+    --color-accent-blue: #45a29e;
+    --color-border: #30336b;
+}
+
+#exploration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#exploration>div:first-child {
+    text-align: center;
+    margin: 40px 60px;
+    line-height: 25px;
+}
+
+#exploration>div:first-child h2 {
+    font-size: 2.1em;
+    padding: 20px;
+    color: blue;
+}
+
+
+.explore-container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1200px;
+    background-color: var(--color-bg-dark);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.explore-container .explore-box {
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: var(--color-bg-light);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 10px black transition all 4s ease;
+}
+
+.explore-container .explore-box:hover {
+    transform: scale(1.03)
+}
+
+.explore-container .explore-box a {
+    border: 2px solid blue;
+    background-color: rgb(1, 152, 246);
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.explore-container .explore-box a:hover {
+    background-color: rgba(1, 152, 246, 0.423)
+}
+
+.explore-container .explore-box h3 {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.explore-container .explore-box p {
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+    margin: 5px 2px;
+}
+
+.explore-image {
+    display: flex;
+
+}
+
+
+.explore-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
